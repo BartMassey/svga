@@ -32,7 +32,7 @@ END {
 
 for OUTPUT in $OUTPUTS
 do
-    echo "saw $OUTPUT"
+    echo "saw output: $OUTPUT"
 done
 exit 0
 
