@@ -84,11 +84,11 @@ cat $TMP | (
 
   if [ "$MODE" = off ]
   then
-      xrandr -s 0
       while read OUTPUT
       do
 	  xrandr --output "$OUTPUT" --off
       done
+      xrandr -s 0
       exit 0
   fi
 
