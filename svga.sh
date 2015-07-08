@@ -97,4 +97,5 @@ cat $TMP | (
   do
       xrandr --output "$OUTPUT" --off --mode "$MODE" --same-as "$PRIMARY"
   done
+  xrandr --output "$PRIMARY" --primary
 )
